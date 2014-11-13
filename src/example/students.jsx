@@ -21,7 +21,7 @@ var Students = React.createClass({
     return (
         <div><h1>Hello STUDENTS</h1>
             <StudentsList students={this.state.students}/>
-        <a href='#someForm'>Add New</a>
+        <Link to="new">Add New</Link>
         <div><this.props.activeRouteHandler addStudent={this.addStudent} /> </div></div>
         )
 
